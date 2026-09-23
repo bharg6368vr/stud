@@ -6,6 +6,7 @@ classes/
 *.war
 *.ear
 *.original
+push_to_github.bat
 maven-archiver/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
