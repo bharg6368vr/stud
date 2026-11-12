@@ -7,6 +7,9 @@ on:
     branches: [ main, master ]
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: Build, Test & Verify Docker
@@ -35,12 +38,5 @@ jobs:
           path: target/*.jar
           retention-days: 7
 
-      - name: Set up Docker Buildx
-        uses: actions/setup-buildx-action@v3
-
       - name: Build & Verify Docker Image
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          push: false
-          tags: stud:latest
+        run: docker build -t stud:latest .
