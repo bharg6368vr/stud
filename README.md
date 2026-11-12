@@ -1,6 +1,6 @@
 # 🎓 Student Performance & Attendance Management System
 
-[![CI/CD & Deploy Spring Boot App](https://github.com/bharg6368vr/stud/actions/workflows/deploy.yml/badge.svg)](https://github.com/bharg6368vr/stud/actions/workflows/deploy.yml)
+[![CI/CD & Build Spring Boot App](https://github.com/bharg6368vr/stud/actions/workflows/deploy.yml/badge.svg)](https://github.com/bharg6368vr/stud/actions/workflows/deploy.yml)
 
 A robust **Spring Boot 3** web application designed to track, manage, and analyze student records, attendance metrics, and academic performance evaluations with both an interactive **Thymeleaf UI** and **REST APIs**.
 
